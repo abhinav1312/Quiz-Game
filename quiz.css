@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: #007bff;
+}
+
+.start-btn,
+.ques-box,
+.result, .rule-box{
+    position: absolute;
+    top:50%;
+    left:47%;
+    right:50%;
+}
+
+.rule-btns,.start-btn button,
+.result .restart,
+.ques-box #submit{
+    height: 40px;
+    width:100px;
+    border:1px solid #007bff;
+    border-radius:5%;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+/* .start-quiz{
+    height: 40px;
+    width:100px;
+    border:1px solid #007bff;
+    border-radius:5%;
+    padding: 3px 10px;
+    cursor: pointer;
+} */
+
+.start-btn button:hover{
+    color:#007bff;
+    background-color: #f0f8ff;
+}
+
+.start-quiz:hover{
+    background-color:#007bff;
+    color: #f0f8ff;
+}
+.cancel-quiz:hover{
+   background-color: rgba(204, 206, 208, 0.468);
+}
+.result .restart:hover{
+    background-color:#007bff;
+    color: #f0f8ff;
+}
+.ques-box #submit:hover{
+    background-color:#007bff;
+    color: #f0f8ff;
+}
+.buttons{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.ques-box,
+.result, .rule-box{
+    /* display: none; */
+    top:10%;
+    left: 28%;
+    background-color: #f0f8ff;
+    height:max-content;
+    width:600px;
+    padding: 15px;
+    transition:all 1000ms;
+    opacity:0;
+    pointer-events: none;
+}
+.rule-box{
+    opacity:0;
+    pointer-events: all;
+}
+.rule-box h1{
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom:1px solid;
+}
+.rule-box ul{
+    padding: 10px;
+}
+.rule-box ul li{
+    margin-bottom: 5px;
+}
+.ques-box header{
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.result .icon{
+    padding: 40px 15px;
+    font-weight: 600;
+    font-size: 250%;
+    text-align: center;
+}
+.result h1, h3{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.result h3{
+    margin-left:5%;
+    
+}
+
+
+.ques-box section{
+
+    padding:20px 20px;
+    border-bottom: 1px solid;
+    cursor:pointer;
+}
+
+.ques-box section .question{
+    margin-bottom:15px;
+}
+
+.ques-box section .option{
+    background-color: rgba(204, 206, 208, 0.285);
+    border:1px solid #b5acacaa;
+    border-radius:5px;
+    margin-bottom:10px;
+    height:40px;
+    padding: 5px 15px;
+}
+
+.ques-box section .option:hover{
+    background-color: rgba(204, 206, 208, 0.468);
+}
+
+.afterclick{
+    opacity:1;
+    z-index: 5;
+    pointer-events: all;
+}
+
+.aftersubmit{
+    opacity:0;
+    pointer-events: none;
+}
+
+.blockclick{
+    pointer-events: none;
+}
+
+.restart{
+    height: 55px;
+    width:110px;
+    border:1px solid #007bff;
+    border-radius:5%;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.ques-box #submit {
+    margin: 20px;
+    position: relative;
+    left: 409px;
+}
+

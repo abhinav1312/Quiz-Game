@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="quiz.css">
+        <script src="https://kit.fontawesome.com/5bd6cfa774.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="start-btn afterclick" ><button id="start-btn">Start Quiz</button></div>
+
+        <div class="rule-box">
+            <h1>Rules</h1>
+            <ul>
+                <li>Each question carries 1 mark</li>
+                <li>The questions can be answered only once.</li>
+                <li>Green color denotes correct answer and red denotes wrong answer</li>
+            </ul>
+            <div class="buttons">
+                <button class="rule-btns start-quiz">Start</button> 
+                <button class="rule-btns cancel-quiz">Cancel</button> 
+            </div>
+            
+            
+        </div> 
+
+        <div class="ques-box" id="ques-box">
+            <header>Welcome to the Quiz</header>
+            <div class="ques-block"></div>
+            <button id="submit">Submit</button>
+        </div>
+
+        <div class=result id="result">
+            <div class="icon"></div> 
+
+            <div class="message-display"></div>
+            <h1>You scored
+            <br><br><span class="score"></span>/5
+            </h1>
+        <button class="restart" onclick="restart()">Restart</button>
+        </div>
+
+
+        <script src="javascript.js"></script>
+    </body>
+</html>
