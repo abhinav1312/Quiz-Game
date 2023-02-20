@@ -4,6 +4,7 @@
 + It is a simple quiz game similar to google forms created using HTML, CSS, and Javascript.
 + The questions can be answered randomly and one question can only be answered once.
 + When the quiz gets completed, the result is displayed with a custom message.
++ [Check the app here](https://abhinav1312.github.io/Quiz-Game/)
 
 ### New techniques / algorithms / skills learned when building the project
 + Got to know about "transform: translate" feature of CSS which can also be used to center content.
