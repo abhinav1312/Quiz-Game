@@ -19,3 +19,10 @@
 
 ### Scope of betterment
 + Additonal changes can be applied such as time bounded quiz, dynamically changing options, custom created question by the user and a lot more.
+
+### Images
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/79260179/220052192-65270111-21da-45c8-9aec-5b8e50bc4d09.png">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/79260179/220052280-e4bde92e-aa1f-4242-825a-0ca509cf37e6.png">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/79260179/220052470-09da1200-afab-4bd5-820b-5bc46f0733a3.png">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/79260179/220052549-b5a2b758-677e-4d37-9011-8579a51f7b5f.png">
+
